@@ -1,0 +1,23 @@
+1Nível Básico:
+
+    1- Escreva um programa que crie um vetor de inteiros e preencha com valores digitados pelo usuário. Em seguida, o programa deve exibir o valor médio dos números armazenados no vetor.
+
+    2 - Escreva um programa que crie um vetor de inteiros e preencha com valores aleatórios. Em seguida, o programa deve exibir o maior e o menor valor presente no vetor.
+
+    3 - Escreva um programa que crie dois vetores de inteiros do mesmo tamanho e preencha com valores digitados pelo usuário. Em seguida, o programa deve calcular e exibir a soma dos valores presentes em cada posição dos vetores, ou seja, somar a posição 0 de um vetor com a posição 0 de outro vetor, assim por diante e apresentar para o usuário..
+
+Nível Intermediário:
+
+    1 - Escreva um programa que crie um vetor de inteiros e preencha com valores digitados pelo usuário. Em seguida, o programa deve ordenar o vetor em ordem crescente e exibir os valores ordenados.
+
+    2 - Escreva um programa que crie um vetor de inteiros e preencha com valores aleatórios. Em seguida, o programa deve criar um segundo vetor com os mesmos valores do primeiro vetor, porém na ordem inversa. Por fim, o programa deve exibir os valores dos dois vetores.
+
+    3 - Escreva um programa que crie um vetor de inteiros e preencha com valores digitados pelo usuário. Em seguida, o programa deve remover todos os valores iguais a zero e exibir os valores restantes.
+
+Nível Avançado:
+
+    1 - Escreva um programa que crie um vetor de inteiros e preencha com valores digitados pelo usuário. Em seguida, o programa deve dividir o vetor em dois, um contendo os valores pares e outro contendo os valores ímpares. Por fim, o programa deve exibir os dois vetores resultantes.
+
+    2 - Escreva um programa que crie um vetor de inteiros e preencha com valores aleatórios. Em seguida, o programa deve identificar a maior sequência de valores consecutivos iguais presentes no vetor e exibir a posição inicial e final da sequência.
+
+    3 - Escreva um programa que crie um vetor de inteiros e preencha com valores digitados pelo usuário. Em seguida, o programa deve identificar a quantidade de subvetores crescentes presentes no vetor e exibir o número de subvetores encontrados.

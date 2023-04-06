@@ -1,0 +1,23 @@
+Basic Level:
+
+1 - Write a program that creates an integer array and fills it with values entered by the user. Then, the program should display the average value of the numbers stored in the array.
+
+2 - Write a program that creates an integer array and fills it with random values. Then, the program should display the largest value present in the array.
+
+3 - Write a program that creates two integer arrays of the same size and fills them with values entered by the user. Then, the program should calculate and display the sum of the values present in each position of the arrays.
+
+Intermediate Level:
+
+1 - Write a program that creates an integer array and fills it with values entered by the user. Then, the program should sort the array in ascending order and display the sorted values.
+
+2 - Write a program that creates an integer array and fills it with random values. Then, the program should create a second array with the same values as the first array, but in reverse order. Finally, the program should display the values of both arrays.
+
+3 - Write a program that creates an integer array and fills it with values entered by the user. Then, the program should remove all values equal to zero and display the remaining values.
+
+Advanced Level:
+
+1 - Write a program that creates an integer array and fills it with values entered by the user. Then, the program should split the array into two, one containing even values and the other containing odd values. Finally, the program should display the two resulting arrays.
+
+2 - Write a program that creates an integer array and fills it with random values. Then, the program should identify the largest sequence of consecutive equal values present in the array and display the starting and ending positions of the sequence.
+
+3 - Write a program that creates an integer array and fills it with values entered by the user. Then, the program should identify the number of increasing subarrays present in the array and display the number of subarrays found.

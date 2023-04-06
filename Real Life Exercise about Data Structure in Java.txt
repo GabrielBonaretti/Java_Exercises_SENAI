@@ -1,0 +1,21 @@
+Real Life Exercise list about Data Structure in Java
+
+1 - Contact List: Implement a program that allows users to maintain a contact list using an ArrayList. Users should be able to add new contacts, remove existing contacts, search for contacts, and display the entire contact list.
+
+2 - Social Media Followers: Build a program that uses a Set to keep track of followers for a social media account. Implement operations such as adding new followers, removing followers, checking if a follower exists, and displaying the total number of followers.
+
+3 - Product Inventory: Create a program that uses a Map to store product information, including product names as keys and their corresponding prices and quantities as values. Implement operations such as adding new products, updating prices and quantities, searching for products, and displaying the inventory.
+
+4 - Music Library: Develop a program that uses ArrayList to manage a music library. Users should be able to add new songs, remove existing songs, search for songs by title or artist, and display the entire music library.
+
+5 - Movie Ratings: Build a program that uses a Map to store movie ratings provided by users. Implement operations such as adding new movie ratings, updating ratings for existing movies, calculating average ratings, and displaying the top-rated movies.
+
+6 - Student Enrollment: Create a program that uses a Set to keep track of students enrolled in a course. Implement operations such as adding new students, removing students who dropped the course, checking if a student is enrolled, and displaying the list of enrolled students.
+
+7 - Employee Database: Build a program that uses an ArrayList to manage employee information, including employee names, IDs, and salaries. Implement operations such as adding new employees, updating employee information, searching for employees, and displaying the employee database.
+
+8 - Bookstore Inventory: Develop a program that uses a Map to store book information, including book titles as keys and their corresponding authors, genres, and prices as values. Implement operations such as adding new books, updating book information, searching for books, and displaying the bookstore inventory.
+
+9 - Shopping Cart: Create a program that uses an ArrayList to implement a simple shopping cart. Users should be able to add items to the cart, remove items from the cart, calculate the total price of the items, and display the items in the cart.
+
+10 - Event RSVP: Build a program that uses a Set to keep track of RSVPs for an event. Implement operations such as adding RSVPs, removing RSVPs for guests who cancelled, checking if a guest has RSVPed, and displaying the list of confirmed guests.

@@ -1,0 +1,21 @@
+Lista de exercícios de estrutura de dados em Java da vida real
+
+1 - Lista de Contatos: Implemente um programa que permita aos usuários manter uma lista de contatos usando um ArrayList. Os usuários devem ser capazes de adicionar novos contatos, remover contatos existentes, pesquisar contatos e exibir a lista completa de contatos.
+
+2 - Seguidores de Mídia Social: Construa um programa que use um Set para acompanhar os seguidores de uma conta de mídia social. Implemente operações como adicionar novos seguidores, remover seguidores, verificar se um seguidor existe e exibir o número total de seguidores.
+
+3 - Inventário de Produtos: Crie um programa que use um Map para armazenar informações de produtos, incluindo os nomes dos produtos como chaves e seus preços e quantidades correspondentes como valores. Implemente operações como adicionar novos produtos, atualizar preços e quantidades, pesquisar produtos e exibir o inventário.
+
+4 - Biblioteca de Música: Desenvolva um programa que use ArrayList para gerenciar uma biblioteca de música. Os usuários devem ser capazes de adicionar novas músicas, remover músicas existentes, pesquisar músicas por título ou artista e exibir a biblioteca de música completa.
+
+5 - Avaliações de Filmes: Construa um programa que use um Map para armazenar avaliações de filmes fornecidas pelos usuários. Implemente operações como adicionar novas avaliações de filmes, atualizar avaliações para filmes existentes, calcular avaliações médias e exibir os filmes mais bem avaliados.
+
+6 - Matrícula de Estudantes: Crie um programa que use um Set para acompanhar estudantes matriculados em um curso. Implemente operações como adicionar novos estudantes, remover estudantes que abandonaram o curso, verificar se um estudante está matriculado e exibir a lista de estudantes matriculados.
+
+7 - Banco de Dados de Funcionários: Construa um programa que use um ArrayList para gerenciar informações de funcionários, incluindo nomes de funcionários, IDs e salários. Implemente operações como adicionar novos funcionários, atualizar informações de funcionários, pesquisar funcionários e exibir o banco de dados de funcionários.
+
+8 - Inventário de Livros: Desenvolva um programa que use um Map para armazenar informações de livros, incluindo títulos de livros como chaves e seus respectivos autores, gêneros e preços como valores. Implemente operações como adicionar novos livros, atualizar informações de livros, pesquisar livros e exibir o inventário da livraria.
+
+9 - Carrinho de Compras: Crie um programa que use um ArrayList para implementar um carrinho de compras simples. Os usuários devem ser capazes de adicionar itens ao carrinho, remover itens do carrinho, calcular o preço total dos itens e exibir os itens no carrinho.
+
+10 - Confirmação de RSVP de Evento: Construa um programa que use um Set para acompanhar as confirmações de RSVP de um evento. Implemente operações como adicionar confirmações de RSVP, remover confirmações de RSVP para convidados que cancelaram, verificar se um convidado confirmou presença e exibir a lista
