@@ -5,6 +5,9 @@ package Example.Exercises;
 
 import java.util.*;
 
+import static java.util.Arrays.*;
+import static java.util.Collections.reverseOrder;
+
 public class Exercise5List6 {
     public static void main(String[] args) {
         Map<String, Double> map = new HashMap<String, Double>();
@@ -26,7 +29,9 @@ public class Exercise5List6 {
                 retrieve(sc, map);
             } else if (choice == 5) {
                 showList(map);
-            }else {
+            } else if (choice == 6) {
+                showListOrdered(map);
+            } else {
                 System.out.println("Enter one the options.");
             }
         }
@@ -40,6 +45,7 @@ public class Exercise5List6 {
         System.out.println("[3] Updating movies");
         System.out.println("[4] Searching for products");
         System.out.println("[5] Show all movies");
+        System.out.println("[6] Show all highest rating movies");
     }
 
     static int choice(Scanner sc) {
@@ -74,7 +80,7 @@ public class Exercise5List6 {
                 System.out.print("Enter movie rating: ");
                 rateMovie = sc.nextDouble();
 
-                if (rateMovie >= 0 || rateMovie <= 5) {
+                if (rateMovie >= 0.0 && rateMovie <= 5.0) {
                     break;
                 } else {
                     System.out.println("The rating needs to be beetween 0 and 5 stars");
@@ -115,7 +121,7 @@ public class Exercise5List6 {
                 System.out.print("Enter the new movie rating: ");
                 rateMovie = sc.nextDouble();
 
-                if (rateMovie >= 0 || rateMovie <= 5) {
+                if (rateMovie >= 0.0 && rateMovie <= 5.0) {
                     break;
                 } else {
                     System.out.println("The rating needs to be beetween 0 and 5 stars");
@@ -142,6 +148,7 @@ public class Exercise5List6 {
     }
 
     static void showList(Map<String, Double> map){
+        Double resultado = (double) 0;
         ArrayList<String> listNames = new ArrayList<>(map.keySet());
         ArrayList<Double> listRating = new ArrayList<Double>(map.values());
 
@@ -149,6 +156,43 @@ public class Exercise5List6 {
         System.out.println("List:");
         for (int i = 0; i < listNames.size(); i++) {
             System.out.printf("[%d] %s - %.1f stars \n", i, listNames.get(i), listRating.get(i));
+        }
+
+        for (Double i : listRating){
+            resultado = resultado + i;
+        }
+
+        System.out.printf("The average rating is: %.2f stars \n", resultado/listRating.size());
+    }
+
+    static void showListOrdered(Map<String, Double> map){
+        Double resultado = (double) 0;
+        System.out.println(map);
+        ArrayList<String> listNames = new ArrayList<>(map.keySet());
+        ArrayList<Double> listRating = new ArrayList<Double>(map.values());
+
+        Map<Integer, Double> mapIndex = new HashMap<Integer, Double>();
+
+        for (int i = 0; i < listRating.size(); i++) {
+            mapIndex.put(i, listRating.get(i));
+        }
+
+        ArrayList<Integer> listIndex = new ArrayList<>(mapIndex.keySet());
+        ArrayList<Double> listRatingIndex = new ArrayList<Double>(mapIndex.values());
+
+        Collections.sort(listRating, Collections.reverseOrder());
+
+        System.out.println("---------------------------------");
+        System.out.println("List ordered: ");
+
+        for (Double i : listRating){
+            resultado = resultado + i;
+        }
+
+        System.out.printf("The average rating is: %.2f stars \n", resultado/listRating.size());
+
+        for (int i = 0; i < listNames.size(); i++) {
+            System.out.printf("[%d] %s - %.1f stars \n", i, listNames.get(listRatingIndex.indexOf(listRating.get(i))), listRating.get(i));
         }
     }
 }
