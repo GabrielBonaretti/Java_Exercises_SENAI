@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class Rodrigo {
+public class Exercise2 {
 
     public static void main(String[] args) {
         Set<String> setList = new HashSet<String>();

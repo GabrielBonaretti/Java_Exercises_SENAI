@@ -3,7 +3,7 @@ package exercicios2.java;
 import java.util.Random;
 import java.util.Scanner;
 
-public class exercicio {
+public class ex5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();

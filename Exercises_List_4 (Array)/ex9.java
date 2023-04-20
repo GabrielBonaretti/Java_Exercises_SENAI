@@ -2,7 +2,7 @@ package FpooJava;
 
 import java.util.Scanner;
 
-public class ExerciserX {
+public class ex9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numeroTeste = 0;
